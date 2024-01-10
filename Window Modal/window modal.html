@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="window modal.css">
+    <title>Document</title>
+</head>
+<body>
+    <button class="show-modal"  type="button">Open Photo 1</button>
+    <button class="show-modal"  type="button">Open Photo 2</button>
+    <button class="show-modal"  type="button">Open Photo 3</button>
+
+    <div class="modal1 hidden">
+       <i class="fa fa-times close-modal1" aria-hidden="false"></i>
+        <img src="/Projects/Project 2/phots/img 1.jpg" alt="image">
+    </div>
+    <div class="modal2 hidden">
+        <i class="fa fa-times close-modal2" aria-hidden="false"></i>
+         <img src="/Projects/Project 2/phots/img 2.jpg" alt="image">
+    </div>
+    <div class="modal3 hidden">
+        <i class="fa fa-times close-modal3" aria-hidden="false"></i>
+         <img src="/Projects/Project 2/phots/img 3.jpg" alt="image">
+    </div>
+   
+        
+    <div class="overlay hidden"></div>
+
+    <script src="window modal.js"></script>
+</body>
+</html>
+
+<!--
+    je bhi close-model button click thyu, ena parent na classList ma hidden class push karva nu chhe.
+-->

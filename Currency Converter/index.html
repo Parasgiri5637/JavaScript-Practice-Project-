@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../Currency Converter/sass/style.css" />
+    <script defer src="index.js"></script>
+    <title>Currency Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Currency Converter</h1>
+      <form action="#">
+        <div class="amount">
+          <p class="amount__text">Enter Amout</p>
+          <input
+            type="number"
+            value="1"
+            id="amount__input"
+            class="amount__input"
+          />
+        </div>
+        <div class="exchange-container">
+          <div class="from">
+            <p class="exchange__text">From</p>
+            <div class="select-box">
+              <img
+                src="https://flagsapi.com/US/flat/64.png"
+                alt="Flags"
+                class="exchange__flag"
+              />
+              <select name="" id="country-code" class="exchange__select">
+                <option value="USA">USA</option>
+              </select>
+            </div>
+          </div>
+          <!-- ===================================================== -->
+          <div class="icon">
+            <img
+              src="/Currency Converter/right-left-solid.svg"
+              alt="Exchange icon"
+              id="icon__exchange"
+              class="icon__exchange"
+            />
+          </div>
+          <!-- ======================================================= -->
+          <div class="to">
+            <p class="exchange__text">To</p>
+            <div class="select-box">
+              <img
+                src="https://flagsapi.com/INR/flat/64.png"
+                alt="Flags"
+                class="exchange__flag"
+              />
+              <select name="" id="country-code" class="exchange__select">
+                <option value="INR">INR</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <p class="exchange-text">Get The Exchange Rate here</span></p>
+        <button id="btn" class="btn btnAnimation">Get Exchange Rate</button>
+      </form>
+    </div>
+  </body>
+</html>

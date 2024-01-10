@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer type="module" src="index.js"></script>
+    <link rel="stylesheet" href="/sass/style.css" />
+    <title>Product Page</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search Product Here"
+        />
+        <button class="btn" id="search">Search</button>
+      </div>
+      <div class="buttons">
+        <button class="active" data-name="all">All</button>
+        <button data-name="smartphones">SmartPhones</button>
+        <button data-name="laptops">Laptops</button>
+        <button data-name="fragrances">Fragrances</button>
+        <button data-name="groceries">Groceries</button>
+        <button data-name="skincare">SkinCare</button>
+        <button data-name="home-decoration">Home-Decoration</button>
+      </div>
+
+      <div class="filterable_Product">
+        <div id="spinner" class="spinner"></div>
+
+        <!-- <div class="card" data-name="phones">
+          <img src="/pexels-torsten-dettlaff-3623358.jpg" alt="" />
+          <div class="card_body">
+            <h2 class="title">Iphone 9</h2>
+            <h3 class="brand">Brand:apple</h3>
+            <p class="description">
+              An apple mobile which is nothing like apple
+            </p>
+            <p class="price">549$</p>
+          </div>
+        </div> -->
+      </div>
+    </div>
+  </body>
+</html>

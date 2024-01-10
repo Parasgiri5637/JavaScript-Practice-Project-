@@ -1,0 +1,62 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: rgb(82, 43, 69);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  text-align: center;
+  font-family: monospace;
+  font-size: 1.2rem;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.7);
+  padding: 2em;
+  border-radius: 1rem;
+  width: 80%;
+  max-width: 65%;
+}
+.container .heading {
+  margin-bottom: 0.8em;
+  color: rgb(82, 43, 69);
+}
+.container .quote {
+  margin-bottom: 0.5em;
+  color: rgb(148, 147, 145);
+  font-size: 1.9rem;
+}
+.container .author {
+  margin-bottom: 0.8em;
+  color: rgb(148, 147, 145);
+  font-size: 1.9rem;
+}
+.container .btn {
+  text-transform: uppercase;
+  background-color: rgb(82, 43, 69);
+  color: #fff;
+  border: none;
+  padding: 0.7em 1em;
+  border-radius: 1rem;
+  transition: all 0.3s ease-in;
+  cursor: pointer;
+}
+.container .btn:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease-in;
+}
+.container .btn:active {
+  transform: scale(0.96);
+}/*# sourceMappingURL=style.css.map */

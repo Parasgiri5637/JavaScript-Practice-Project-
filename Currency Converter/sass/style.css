@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #675afe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+}
+
+form :where(input, button) {
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+}
+
+.container {
+  background-color: #fff;
+  padding: 2em;
+  width: 25%;
+  border-radius: 1rem;
+}
+.container h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0.5em;
+}
+
+.amount .amount__text {
+  font-size: 1.8rem;
+  margin-bottom: 0.2em;
+}
+.amount .amount__input {
+  border: 1px solid #999;
+  height: 3.5rem;
+  font-size: 1.5rem;
+  -webkit-padding-start: 1em;
+          padding-inline-start: 1em;
+  margin-bottom: 0.5em;
+}
+.amount .amount__input:focus {
+  border: 2px solid #675afe;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.exchange-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.exchange-container .select-box {
+  display: flex;
+  height: 4rem;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #999;
+  padding-inline: 0.5em;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+.exchange-container .exchange__text {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.exchange-container .exchange__flag {
+  width: 3rem;
+}
+.exchange-container .exchange__select {
+  font-size: 1.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-inline: -5px 5px;
+  border: none;
+  border-radius: 0.5rem;
+  outline: none;
+}
+.exchange-container .icon .icon__exchange {
+  width: 3rem;
+  height: 2rem;
+  margin-top: 1.5em;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.exchange-container .icon .icon__exchange:active {
+  transform: scale(0.96);
+}
+
+.exchange-text {
+  margin-top: 1em;
+  font-size: 1.5rem;
+}
+
+.btn {
+  margin-top: 1em;
+  background-color: #675afe;
+  font-size: 1.7rem;
+  padding: 0.5em;
+  color: #fff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.btn:hover {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.btnAnimation:active {
+  transform: scale(0.96);
+}
+
+.select-box select::-webkit-scrollbar {
+  width: 8px;
+}
+
+.select-box select::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+.select-box select::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 8px;
+  border-right: 2px solid #fff;
+}/*# sourceMappingURL=style.css.map */

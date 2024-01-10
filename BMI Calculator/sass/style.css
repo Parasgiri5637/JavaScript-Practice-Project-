@@ -1,0 +1,79 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: linear-gradient(to right, rgb(157, 217, 195), rgb(141, 221, 149));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  font-family: monospace;
+  font-size: 1.8rem;
+}
+
+.container > *:not(:last-child) {
+  margin-bottom: 0.5em;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 1rem;
+  padding: 1em;
+  margin: 1em;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+.container .heading {
+  font-size: 2.5rem;
+}
+.container label {
+  font-size: 1.5rem;
+  color: rgb(110, 143, 125);
+}
+.container .input {
+  margin-left: 1em;
+  width: 94%;
+  height: 3rem;
+  background-color: rgb(212, 241, 224);
+  border: none;
+  -webkit-padding-start: 1em;
+          padding-inline-start: 1em;
+  font-weight: 500;
+  margin-top: 0.7em;
+  border-radius: 0.5rem;
+}
+.container .input:focus {
+  outline: none;
+}
+.container .btn {
+  margin-top: 0.7em;
+  margin-left: 1em;
+  width: 95%;
+  padding: 0.5em 0;
+  background-color: rgb(134, 218, 141);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: #5a5555;
+  font-size: 1.5rem;
+  transition: all 0.3s ease-in;
+}
+.container .btn:hover {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+.container .btn:active {
+  transform: scale(0.96);
+}
+.container p {
+  -webkit-margin-before: 1em;
+          margin-block-start: 1em;
+  color: rgb(77, 109, 92);
+  font-size: 1.7rem;
+}/*# sourceMappingURL=style.css.map */
